@@ -47,7 +47,7 @@ body {
           align-items: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .container {
     background: url(./images/bg-desktop.svg);
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body {
   width: 100%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -105,7 +105,7 @@ body {
           box-shadow: -1rem 5rem 10rem var(--dark-blue-2);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp__left {
     padding: 4rem 10rem 4rem 4rem;
     -webkit-box-flex: 1;
@@ -191,7 +191,7 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp__info {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
@@ -213,7 +213,7 @@ body {
   border-bottom-right-radius: 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp__notification {
     top: 100%;
     left: 50%;
@@ -244,13 +244,13 @@ body {
   color: var(--dark-blue-2);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp .rect strong {
     font-size: 4.5rem;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp .rect {
     font-size: 1.2rem;
   }
@@ -267,7 +267,7 @@ body {
   border-bottom: 10px solid transparent;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp .rect::after {
     border: none;
   }
@@ -281,7 +281,7 @@ body {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp__usage {
     margin-bottom: 2rem;
   }
@@ -327,7 +327,7 @@ body {
   color: var(--pale-blue);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .comp__range {
     font-size: 1.25rem;
     margin-bottom: 1rem;
@@ -348,8 +348,7 @@ progress[value]::-webkit-progress-value::after {
 .attribution {
   font-size: 1.6rem;
   text-align: center;
-  color: var(--dark-blue);
-  display: none;
+  color: var(--grad-2);
 }
 
 .attribution a {
