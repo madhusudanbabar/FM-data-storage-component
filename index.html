@@ -5,23 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+<div class="container">
+  <div class="comp">
+    <div class="comp__left">
+      <div class="comp__logo-box">
+        <img src="./images/logo.svg" alt="fylo" class="comp__logo">
+      </div>
+      <div class="comp__icons-inline">
 
-  You’ve used 815 GB of your storage
+        <div class="comp__icon-box">
+          <img src="./images/icon-document.svg" alt="icon-document" class="comp__icon">
+        </div>
 
-  185 GB Left
+        <div class="comp__icon-box">
+          <img src="./images/icon-folder.svg" alt="icon-folder" class="comp__icon">
+        </div>
+
+        <div class="comp__icon-box">
+          <img src="./images/icon-upload.svg" alt="icon-upload" class="comp__icon">
+        </div>
+
+      </div>
+    </div>
+    <div class="comp__info">
+      <p class="comp__usage">
+        You’ve used <strong> 815 GB </strong> of your storage
+      </p>
+
+      <div class="comp__notification">
+        <div class="rect">
+          <strong> 185 </strong> GB Left
+        </div>
+      </div>
+
+      <!-- <div class="comp__progress-bg">
+        <div class="comp__progress"></div>
+      </div> -->
+
+      <progress class="comp__progress" value="815" max="1000"></progress>
+
+      <div class="comp__range">
+        <div class="comp__range--start">
+          0 GB
+        </div>
+
+        <div class="comp__range--final">
+          1000 GB
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   
-  0 GB
-  1000 GB
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
