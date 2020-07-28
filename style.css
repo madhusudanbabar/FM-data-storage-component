@@ -203,6 +203,7 @@ body {
 .comp__notification {
   position: absolute;
   right: 4rem;
+  top: -5rem;
   padding: 1.125rem 2.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
